@@ -16,11 +16,6 @@ Le succès des algorithmes est mesuré via :
 2. **La ressemblance morphologique** : Comparaison avec les configurations théoriques optimales.
 
 ## Organisation du dépôt
-* `/algorithmes` : Code source de la logique de fusion et des calculs heuristiques.
+* `/Notebook` : Code source de la logique de fusion et des calculs heuristiques.
 * `/article` : Texte intégral de la publication détaillant le modèle mathématique.
-* `/résultats` : Visualisations des assemblages denses et statistiques de performance.
-
-## Guide d'utilisation
-```bash
-# Exemple pour lancer l'heuristique H2 avec un jeu de données spécifique
-python algorithmes/main.py --mode H2 --input données/polyominos_test.txt
+* `/guide utilisation` : Guide pour appréhender les différentes variables introduites dans le notebook. 
