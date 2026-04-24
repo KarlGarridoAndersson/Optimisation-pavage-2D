@@ -1,5 +1,3 @@
-# Optimisation-pavage-2D
-
 # Optimisation discrète de la compacité géométrique : Pavage 2D
 
 Ce dépôt contient les travaux de recherche et l'implémentation algorithmique liés à l'étude sur l'assemblage automatique de blocs connexes (polyominos).
