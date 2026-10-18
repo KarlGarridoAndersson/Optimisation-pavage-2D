@@ -1,0 +1,28 @@
+# Usage Guide: Assembly Algorithms
+
+This guide details the technical workings and variable handling for the optimization of geometric compactness.
+
+## Instance Configuration
+
+The algorithm is driven through the `CONFIG` dictionary. Changing these values lets you adjust the complexity of the tiling problem.
+
+|  Variable  | Type  | Description |
+| :--------: | :---- | :---------- |
+| `n_shapes` | `int` | Total number of polyominoes generated for the session.        |
+| `min_size` | `int` | Minimum area of a piece (in grid units).        |
+| `max_size` | `int` | Maximum area of a piece (in grid units).        |
+| `seed`     | `int` | Seed used to fix the randomness and reproduce results. |
+
+
+## Function Handling
+
+### 1. Main entry point
+The `main()` function orchestrates the generation, the assembly using the three heuristics (H1, H2, H3), and the production of visual reports.
+
+```python
+def main(n_shapes=10, min_size=3, max_size=8, seed=42, save="compacite"):
+    """
+    Runs a complete simulation.
+    Produces 5 image files analyzing the evolution and the similarity.
+    """
+```
